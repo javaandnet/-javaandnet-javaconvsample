@@ -1,0 +1,38 @@
+{
+	"folders": [
+		{
+			"path": "."
+		},
+		{
+			"path": "java/springmvc"
+		}
+	],
+	"settings": {
+		"java.project.sourcePaths": [
+			"java/springmvc/src/main/java"
+		],
+		"java.project.resourcePaths": [
+			"java/springmvc/src/main/resources"
+		],
+		"java.configuration.updateBuildConfiguration": "automatic",
+		"java.server.launchMode": "Standard",
+		"files.exclude": {
+			"**/target": true,
+			"**/*.class": true,
+			"**/*.war": true
+		},
+		"search.exclude": {
+			"**/target": true,
+			"**/*.class": true
+		}
+	},
+	"extensions": {
+		"recommendations": [
+			"vscjava.vscode-java-pack",
+			"vscjava.vscode-maven",
+			"vscjava.vscode-java-debug",
+			"vscjava.vscode-java-test",
+			"vscjava.vscode-java-dependency"
+		]
+	}
+}
