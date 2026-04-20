@@ -2,6 +2,26 @@
 
 本目录用于存放代码转换后的目标项目。
 
+## GitHub 仓库
+
+本项目已同步到 GitHub 进行版本管理：
+
+- **仓库地址**: https://github.com/javaandnet/-javaandnet-javaconvsample
+- **同步脚本**: `./github-sync.sh`
+
+### 快速同步
+
+```bash
+# 查看状态
+./github-sync.sh status
+
+# 同步到 GitHub
+./github-sync.sh sync '你的提交信息'
+
+# 从 GitHub 拉取
+./github-sync.sh pull
+```
+
 ## 目录结构
 
 ```
